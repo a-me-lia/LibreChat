@@ -34,8 +34,8 @@ services:
     api:
         image: librechat
         build:
-        context: .
-        target: node
+            context: .
+            target: node
 
 # # BUILD FROM LATEST IMAGE
 #   api:
